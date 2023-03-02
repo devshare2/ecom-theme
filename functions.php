@@ -1,11 +1,8 @@
 <?php
 
-if ( !class_exists( 'ReduxFramework' ) && file_exists( dirname( __FILE__ ) . '/ReduxFramework/redux-core/framework.php' ) ) {
-    require_once( dirname( __FILE__ ) . '/ReduxFramework/redux-core/framework.php' );
-}
-if ( !isset( $redux_demo ) && file_exists( dirname( __FILE__ ) . '/ReduxFramework/sample/sample-config.php' ) ) {
-    require_once( dirname( __FILE__ ) . '/ReduxFramework/sample/sample-config.php' );
-}
+require_once( dirname( __FILE__ ) . '/theme-options/redux-core/framework.php' );
+
+require_once( dirname( __FILE__ ) . '/theme-options/sample/admin-config.php' );
 
 function ecom_register_scripts() {
 
