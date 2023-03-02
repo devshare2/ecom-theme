@@ -6,7 +6,6 @@ if ( !class_exists( 'ReduxFramework' ) && file_exists( dirname( __FILE__ ) . '/R
 if ( !isset( $redux_demo ) && file_exists( dirname( __FILE__ ) . '/ReduxFramework/sample/sample-config.php' ) ) {
     require_once( dirname( __FILE__ ) . '/ReduxFramework/sample/sample-config.php' );
 }
-
 function ecom_register_scripts() {
 
      $uri = get_template_directory_uri();
